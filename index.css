@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 227, 206);
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    background-color: rgb(78, 78, 69);
+    border: 2px;
+    color: rgb(243, 243, 237);
+} 
+.buscaLivro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(66, 66, 20);
+}
